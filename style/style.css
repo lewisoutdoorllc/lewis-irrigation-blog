@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+header {
+    /* background-color: #aeaeaec7; */
+    min-height: 350px;
+    padding: 30px;
+    text-align: center;
+    color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/lewis-irrigation-blog/assets/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* background-repeat: no-repeat; */
+}
+
+header > * {
+    z-index: 10;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    /* min-height: 100%; */
+    background-color: rgba(50, 50, 50, 0.571);
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(/assets/IMG_9281.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-name {
+    font-size: 3em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    margin-top: 8px;
+}
+
+.main {
+    height: 100px;
+    /* padding: 30px; */
+    background-color: #f2f2f2;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.main-container {
+    max-width: 750px;
+    min-width: 600px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+footer {
+    min-height: 100px;
+    background-color: #000000;
+    /* color: #929eaa; */
+    color: rgb(162, 162, 162);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
