@@ -17,7 +17,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/lewis-irrigation-blog/assets/banner.jpeg);
+    background-image: url(/assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
