@@ -134,7 +134,7 @@ header::after {
     flex-basis: 40%;
     /* width: 100%; */
     /* height: 100px; */
-    background-image: url(/assets/post1.jpg);
+    /* background-image: url(/assets/post1.jpg); */
     background-size: cover;
     background-position: center;
     /* display: flex; */
