@@ -40,5 +40,6 @@ const postImg = `${API_BASE_URL}${data.post_image}`;
     document.getElementById("individual-post-title").innerText = data.title;
     document.getElementById("individual-post-date").innerText = `Posted On: ${postDate}`;
     document.getElementById("individual-post-content").innerText = data.content;
+    console.log(data)
 }
 

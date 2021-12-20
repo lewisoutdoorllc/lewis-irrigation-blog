@@ -46,7 +46,7 @@ header {
     /* background-repeat: no-repeat; */
 }
 
-.home-page > header {
+.home-page > header, .new-post-page > header {
     background-image: url(/assets/banner.jpeg);
 }
 
@@ -78,7 +78,7 @@ header::after {
     background-position: center;
 }
 
-.profile-name {
+.profile-name, .title {
     font-size: 3em;
     margin-top: 10px;
     font-weight: bold;
