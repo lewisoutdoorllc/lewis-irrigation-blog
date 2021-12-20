@@ -39,11 +39,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/banner.jpeg);
+    /* background-image: url(/assets/banner.jpeg); */
     background-size: cover;
     background-position: center;
     position: relative;
     /* background-repeat: no-repeat; */
+}
+
+.home-page > header {
+    background-image: url(/assets/banner.jpeg);
 }
 
 header > * {
@@ -61,6 +65,8 @@ header::after {
     /* min-height: 100%; */
     background-color: rgba(50, 50, 50, 0.571);
 }
+
+
 
 .profile-image {
     width: 100px;
@@ -210,3 +216,4 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
+
